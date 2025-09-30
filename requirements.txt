@@ -1,6 +1,7 @@
+streamlit
+tensorflow
+keras
+nltk
+requests
 pandas
 numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
