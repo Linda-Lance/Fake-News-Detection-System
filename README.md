@@ -1,4 +1,4 @@
-## 📰 Fake News Detection System
+# 📰 Fake News Detection System
 
 Detect Real vs Fake News in real-time using an LSTM-based NLP model and Streamlit! ⚡
 This project combines deep learning, NLP preprocessing, and live news fetching to classify news articles. Users can either input text manually or fetch the latest news dynamically using NewsAPI.
@@ -6,7 +6,8 @@ This project combines deep learning, NLP preprocessing, and live news fetching t
 ## 🚀 Live Demo
 
 Check out the **interactive demo** of the Fake News Detection System here:  
-[Live Demo 📰](https://share.streamlit.io/your-username/fake-news-detection/main/app.py)
+
+[Live Demo 📰](https://linda-lance-fake-news-detection-system-app-891hnt.streamlit.app/)
 
 ## ✨ Project Highlights
 
@@ -22,15 +23,20 @@ Check out the **interactive demo** of the Fake News Detection System here:
 
 ## 🛠️ Tech Stack
 
-Python 3.x
-TensorFlow, Keras (LSTM)
-NLTK (stopwords, lemmatization)
-Streamlit
-Pandas, NumPy
-NewsAPI
+• Python 3.x
+
+• TensorFlow, Keras (LSTM)
+
+• NLTK (stopwords, lemmatization)
+
+• Streamlit
+
+• Pandas, NumPy
+
+• NewsAPI
 
 ## 📂 Project Structure
-
+```
 fake-news-detection/
 │
 ├── app.py                  # Streamlit app
@@ -41,30 +47,31 @@ fake-news-detection/
 ├── Screenshots/            # Optional images/icons
 ├── fake_news.ipynb         # source code
 └── training dataset        # Optional CSV for testing
-
+```
 ## ⚡ Installation
 
 Clone the repository
-'''
+```
 git clone https://github.com/your-username/fake-news-detection.git
 cd fake-news-detection
-'''
+```
 
 Install dependencies
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 Add NewsAPI key
 
 Open app.py and replace:
-'''
+```
 NEWS_API_KEY = "YOUR_NEWSAPI_KEY"  # 🔑 Replace with your key
-'''
+```
+
 🚀 Running the App
-'''
+```
 streamlit run app.py
-'''
+```
 
 Open the URL shown in the terminal to access the app in your browser.
 
@@ -72,9 +79,9 @@ Open the URL shown in the terminal to access the app in your browser.
 
 1️⃣ Manual Text Prediction
 
-Enter a news article in the text area.
+• Enter a news article in the text area.
 
-Click Predict Text to see the classification and confidence score.
+• Click Predict Text to see the classification and confidence score.
 
 ## 💡 Model Architecture
 
